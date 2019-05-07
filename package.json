@@ -1,0 +1,28 @@
+{
+  "name": "patternlibrary",
+  "version": "1.0.0",
+  "description": "Package.json file for patternlibrary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AdamElsbury/patternlibrary.git"
+  },
+  "keywords": [
+    "pattern",
+    "library",
+    "node",
+    "scss"
+  ],
+  "author": "Adam Elsbury <adam.john.elsbury@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamElsbury/patternlibrary/issues"
+  },
+  "homepage": "https://github.com/AdamElsbury/patternlibrary#readme",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
