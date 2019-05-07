@@ -1,6 +1,6 @@
 {
   "name": "patternlibrary",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Package.json file for patternlibrary",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/AdamElsbury/patternlibrary#readme",
   "dependencies": {
-    "git": "^0.1.5"
+    "git": "^0.1.5",
+    "node-sass": "^4.12.0"
   }
 }
