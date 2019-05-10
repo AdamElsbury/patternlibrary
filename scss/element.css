@@ -115,7 +115,7 @@ side it and they will take up the remaining space.
 [MEDIA QUERIES]
 To make the flex grid look good on mobile we change the
 row flex direction to column to stack the columns
-vertically.
+vertically on devices smaller than 501px.
 */
 
 @media screen and ( max-width: 500px ) {
@@ -123,3 +123,58 @@ vertically.
   flex-direction: column;
   }
 }
+
+/*
+=================================================
+=========          TEXT SIZING          =========
+=================================================
+
+[RESPONSIVE TEXT]
+Instead of using lots of CSS rules with media queries
+to size the text you can use a calc function to have
+it dynamically respond to the width of the viewport.
+If you want to change the size range, change the px
+value and the first number in the first set of
+brackets below.
+*/
+
+p {
+  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+/*
+Because the font size is dictated with our calculation above
+you can set the header sizes as em unit and they will dynamically
+scale to the font size.
+*/
+
+h1 {
+  font-size: calc(35px + (35 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h2 {
+  font-size: calc(30px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h3 {
+  font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h4 {
+  font-size: calc(20px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h5 {
+  font-size: calc(18px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h6 {
+  font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/*
+The above rules look great on any device above 500px but
+its advised that you apply your own mobile sizes with
+media queries for mobile viewports.
+*/
