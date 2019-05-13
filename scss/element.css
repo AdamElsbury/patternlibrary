@@ -1,5 +1,4 @@
 /*
-
 =================================================
 =========            GENERAL            =========
 =================================================
@@ -9,6 +8,36 @@ body {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   margin: 0;
+}
+
+.padding {
+  padding: 5%;
+}
+
+.margin {
+  margin: 5%;
+}
+
+.margin-top {
+  margin-top: 5%;
+}
+
+/*
+=================================================
+=========           TEXT INPUT          =========
+=================================================
+*/
+
+input[type=text] {
+  min-height: 48px;
+  min-width: 300px;
+  padding: 0 23px 0 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  border-radius: 4px;
+  border: 2px solid #5B5B5B;
+
 }
 
 /*
@@ -165,6 +194,7 @@ brackets below.
 
 p {
   font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: #171717;
 }
 
 
@@ -178,28 +208,38 @@ h1 {
   font-size: calc(35px + (35 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 700;
   margin: 1.5% 0 1.5% 0;
+  color: #171717;
 }
 
 h2 {
   font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;
+  color: #171717;
 }
 
 h3 {
   font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
 }
 
 h4 {
   font-size: calc(20px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
 }
 
 h5 {
   font-size: calc(18px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
 }
 
 h6 {
   font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
 }
 
 /*
@@ -233,6 +273,8 @@ own width.
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
+  min-height: 50px;
+  min-width: 150px;
 }
 
 .btn-secondary {
@@ -249,6 +291,8 @@ own width.
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
+  min-height: 50px;
+  min-width: 150px;
 }
 
 /*
@@ -402,6 +446,8 @@ appearing in order from left to right of the containers*/
 =================================================
 
 [HERO]
+The hero section goes at the top of the page and
+contains the navigation elements and a header <h1>.
 */
 
 .hero {
@@ -412,4 +458,26 @@ appearing in order from left to right of the containers*/
 
 .hero-row {
   height: 300px;
+}
+
+/*
+=================================================
+=========            JUMBOTRON          =========
+=================================================
+
+[JUMBOTRON]
+The jumbotron element contains a primary call to action
+with a description of the outcome, a text input and
+a CTA button.
+
+The element is contained with a div with the jumbotron
+class. This element contains a drop shadow.
+*/
+
+.jumbotron {
+  width: 70%;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  border-radius: 18px;
 }
