@@ -1,4 +1,17 @@
 /*
+
+=================================================
+=========            GENERAL            =========
+=================================================
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  margin: 0;
+}
+
+/*
 =================================================
 =========           FLEX GRID           =========
 =================================================
@@ -25,6 +38,21 @@ is to offset against the gutter applied to the columns
 .grid-row {
   display: flex;
   margin: 0 0 0 -.5rem
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-content {
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /*
@@ -148,10 +176,14 @@ scale to the font size.
 
 h1 {
   font-size: calc(35px + (35 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 700;
+  margin: 1.5% 0 1.5% 0;
 }
 
 h2 {
-  font-size: calc(30px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 600;
+  margin: 1.5% 0 1.5% 0;
 }
 
 h3 {
@@ -291,7 +323,7 @@ bar is responsive and will be hidden on mobile viewports.
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+  padding: 0 2% 0 2%;
 }
 
 /* For images */
@@ -362,4 +394,22 @@ appearing in order from left to right of the containers*/
   order: 3;
   -webkit-order: 3;
   -ms-flex-order: 3;
+}
+
+/*
+=================================================
+=========              HERO             =========
+=================================================
+
+[HERO]
+*/
+
+.hero {
+  background: linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-row {
+  height: 300px;
 }
