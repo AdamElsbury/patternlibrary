@@ -194,8 +194,8 @@ own width.
   background-color: #514A9D;
   border-radius: 4px;
   color: #FFFFFF;
-  border: none;
-  padding: 15px 25px 15px 25px;
+  border: 2px solid transparent;
+  padding: 13px 23px 13px 23px;
   text-transform: uppercase;
   transition: all .3s;
   -webkit-transition: all .3s;
@@ -252,9 +252,9 @@ for primary buttons and another for secondary.
 
 .btn-secondary:hover {
   background-color: #514A9D;
-  border: none;
+  border: 2px solid transparent;
   color: #FFF;
-  padding: 15px 25px 15px 25px;
+  padding: 13px 23px 13px 23px;
 }
 
 .no-hover-primary:hover {
@@ -269,4 +269,97 @@ for primary buttons and another for secondary.
   border: 2px solid #514A9D;
   color: #514A9D;
   padding: 13px 23px 13px 23px;
+}
+
+/*
+=================================================
+=========         NAVIGATION BAR        =========
+=================================================
+
+Element has a navigation bar template. You can center
+links to the left, center or right of the container
+element. The navigation bar has a logo included in
+line with industry standard placement. The navigation
+bar is responsive and will be hidden on mobile viewports.
+*/
+
+.nav-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+}
+
+/* For images */
+
+.nav-logo {
+  display: inline-block;
+}
+
+/*
+For links (li elements contained in a ul)
+Note: Ensure the height and line height match
+to make the <a> 100% of the container.
+*/
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #FFF;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+}
+
+.nav-item a:hover {
+  background-color: #FFF;
+  color: #42e695;
+  display: inline-block;
+}
+
+.nav-container ul {
+  margin: 0;
+  min-height: 100%;
+}
+
+.nav-container ul>li {
+  min-height: 100%;
+}
+
+/*
+Nav child elements are ordered using the following rules
+appearing in order from left to right of the containers*/
+
+.item-1 {
+  order: 1;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+}
+
+.item-2 {
+  order: 2;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+}
+
+.item-3 {
+  order: 3;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
 }
