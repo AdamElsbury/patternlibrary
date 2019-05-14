@@ -1,0 +1,57 @@
+/*
+=================================================
+=========           HEADER BAR          =========
+=================================================
+*/
+
+.header-bar-h1 {
+  font-size: calc(20px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: #FFF;
+}
+
+.header-bar {
+  background: linear-gradient(135deg, #24C6DC 0%,#514A9D 100%);
+  min-height: 50px;
+}
+
+/*
+=================================================
+=========           NAVIGATION          =========
+=================================================
+*/
+
+.navigation-container {
+  background-color: #FFF;
+
+}
+
+/*
+=================================================
+=========            CONTENT            =========
+=================================================
+*/
+
+.content-header {
+  background: #515151;
+  border-bottom: 7px solid #24C6DC;
+}
+
+.content-header h2 {
+  color: #FFF;
+}
+
+.content-container {
+  background: #F3F3F3;
+}
+
+.border-bottom:after {
+    content: "";
+    display: block;
+    width: 20%;
+    padding-top: 5px;
+    border-bottom: 4px solid #24C6DC;
+}
+
+.content-left h4 {
+  color: #514A9D;
+}

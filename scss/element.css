@@ -21,7 +21,7 @@ Padding rules to apply to elements
 */
 
 .padding {
-  padding: 5%;
+  padding: 5% !important;
 }
 
 .padding-vertical {
@@ -79,6 +79,10 @@ Margin rules to apply to elements
 
 .margin-right {
   margin-right: 5%;
+}
+
+.margin-remove {
+  margin: 0 !important;
 }
 
 /*
