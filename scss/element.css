@@ -113,7 +113,6 @@ input[type=text] {
   letter-spacing: 0;
   border-radius: 4px;
   border: 2px solid #5B5B5B;
-
 }
 
 /*
@@ -639,6 +638,7 @@ Footer container to hold footer elements.
   width: 100vw;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
+  display: none;
 }
 
 .modal {
@@ -662,4 +662,41 @@ Footer container to hold footer elements.
 
 .modal-right button {
   min-width: 0px !important;
+}
+
+/*
+=================================================
+=========           SEARCH BAR          =========
+=================================================
+
+[SEARCH BAR]
+Search bar for use in navigation elements.
+input[type=text]
+*/
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  min-height: 48px;
+  min-width: 300px;
+  padding: 0 23px 0 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #24C6DC;
+  margin-right: 0px;
+  float: left;
+}
+
+.search-icon {
+  background-color: #24C6DC;
+  height: 48px;
+  width: 48px;
+  margin-left: 0px;
+  border: none;
+  float: left;
+  border-radius: 0 4px 4px 0;
 }
