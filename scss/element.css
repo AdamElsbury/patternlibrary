@@ -77,6 +77,10 @@ Margin rules to apply to elements
   margin-top: 5%;
 }
 
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
 .margin-right {
   margin-right: 5%;
 }

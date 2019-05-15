@@ -54,7 +54,7 @@
         <div class="container">
           <div class="grid-row margin-remove">
             <div class="grid-col content-header padding margin-remove">
-              <h2>About Element</h2>
+              <h2>For developers</h2>
             </div>
           </div>
         </div>
@@ -62,20 +62,46 @@
         <section class="container content-container">
           <div class="grid-row margin-remove">
             <div class="grid-col-50 content-left margin-remove padding"> <!-- Text content -->
-              <h3 class="border-bottom">Introduction</h3>
-              <p>Welcome to Element design system. EDS is a pattern library for usage by developers and designers to speed up their working process. Whether you are using this design system for prototyping, experimentation or for use in a live project you can ease some of the time needed to get up and running with our FlexGrid system or pull components directly for use in your web pages.</p>
-              <p>This design system was created by the owner Adam Elsbury to consolidate personal assets and organise things like text and heading sizes and weights for use in other projects instead of having to start from scratch. Hopefully it can help you too!</p>
-              <h3 class="border-bottom margin-top">Why use Element?</h3>
-              <h4 class="margin-top">Element is atomic</h4>
-              <p>Following Brad Frost's Atomic design principles, Element was created with the developer or designer in mind. All components work in the same interface and group together without issue. No matter how big or small your project is. Modularity is our priority.</p>
-              <h4 class="margin-top">Ability doesn't matter</h4>
-              <p>Whether you are putting together your first "Hello world!" template or submitting a finished website to a client - Element caters for all. Our literature is easy to understand for beginners and we have jargon buster sections for our less experienced users!</p>
-              <h4 class="margin-top">User centric design</h4>
-              <p>Every single component has been rigorously user tested with live participants to ensure everything included is of the highest quality. It also gives you the peace of mind of not having to test it yourself. Each component is tested alone and in groups of elements to ensure design continuity.</p>
-              <h4 class="margin-top">Rapidly evolving</h4>
-              <p>Element was started as a University project but will continue to grow to help designers and developers alike. If you have any feedback about anything that could be done better, or if you would like to see something added that is missing - get in touch!</p>
-              <h4 class="margin-top">Lightweight library</h4>
-              <p>With less than 500 lines of CSS Element is a small, lightweight library that will not impact your page load times.</p>
+              <h3 class="border-bottom">Element vanilla library</h3>
+              <p>The library provides front end engineers a collection of reusable web elements to plug into your own interfaces. All components are comprised of HTML, JS and SCSS partials to allow you to easily copy the code into your project. Simply install through npm or download the files and insert them into your project manually.</p>
+              <h3 class="border-bottom margin-top">Installation</h3>
+              <p class="margin-bottom">If you are using npm:</p>
+              <code class="code-snippet padding-small">$ npm install --save element</code>
+              <p class="margin-top">If you want to download the project:</p>
+              <div class="grid-row">
+                <div class="grid-col">
+                  <h4>Element CSS</h4>
+                  <p>This version uses standard CSS, HTML and JavaScript. This option is better for beginners.</p>
+                  <button class="btn-secondary">DOWNLOAD</button>
+                </div>
+                <div class="grid-col text-right">
+                  <h4>Element SCSS</h4>
+                  <p>This version uses SCSS which needs a SASS compiler to work. A little more tricky for beginners!</p>
+                  <button class="btn-secondary">DOWNLOAD</button>
+                </div>
+              </div>
+              <h3 class="border-bottom">Dependencies</h3>
+              <p>Element uses a few dependencies to work. Please ensure they are installed else this design system will not work.</p>
+              <h4>node-sass</h4>
+              <p class="margin-bottom">Node-sass is a SASS compiler that is used to read this projects SCSS files. <b>This dependency is only needed for the SCSS version of the project.</b></p>
+              <code class="code-snippet padding-small margin-bottom">$ npm install --save node-sass</code>
+              <a href="https://www.npmjs.com/package/node-sass?activeTab=versions" class="margin-top bold-anchor">FULL DOCUMENTATION<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a>
+              <hr>
+              <h4>jQuery</h4>
+              <p class="margin-bottom">jQuery is a JavaScript library used all over the web. jQuery is used in this project for things like the modal component, navigation bar and some animations. Install either with npm or adding script tags to the top of your HTML page.</p>
+              <p>If you are using npm:</p>
+              <code class="code-snippet padding-small margin-bottom">$ npm install --save jquery</code>
+              <p>If you are using script tags:</p>
+              <code class="code-snippet padding-small margin-bottom"><span>&lt;script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"&gt;&lt;/script&gt;</span></code>
+              <a href="https://www.npmjs.com/package/jquery" class="margin-top bold-anchor">FULL DOCUMENTATION<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a>
+              <hr>
+              <h4>Font Awesome</h4>
+              <p class="margin-bottom">Element uses the free open source Font Awesome icon library. Installation for this is simple, include the following stylesheet link in your HTML document.</p>
+              <p>Include in head:</p>
+              <code class="code-snippet padding-small margin-bottom">&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"&gt;</code>
+
+
+
             </div>
 
             <div class="grid-col content-right margin-remove">

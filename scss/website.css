@@ -84,6 +84,16 @@ navigation ul>li>span {
   padding: .75rem;
   margin: 0 0 .5rem .5rem ;
 }
+
+.navigation-active {
+  background-color: #DCDCDC;
+  border-left: 3px solid #24C6DC;
+}
+
+.bold-anchor {
+  font-weight: bold;
+  text-decoration: none;
+}
 /*
 =================================================
 =========            CONTENT            =========
@@ -119,6 +129,18 @@ navigation ul>li>span {
   padding: 10% 5% 10% 2%;
 }
 
+.code-snippet {
+  border: 2px solid #24C6DC;
+  background-color: #FFF;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+}
+
+.content-left hr {
+  width: 70%;
+  margin: 5% auto 5% auto;
+}
 /*
 =================================================
 =========             CARDS             =========
