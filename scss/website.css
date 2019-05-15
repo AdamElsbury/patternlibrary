@@ -144,13 +144,60 @@ navigation ul>li>span {
   border: 2px solid #24C6DC;
   background-color: #FFF;
   border-radius: 5px;
-  width: 100%;
+  width: 95%;
+  display: block;
+}
+
+.code-snippet span {
   display: block;
 }
 
 .content-left hr {
   width: 70%;
-  margin: 5% auto 5% auto;
+  margin: 10% auto 7% auto;
+}
+
+/* Code snippet tab margins */
+
+.tab {
+  margin-left: 20px;
+}
+
+.tab2 {
+  margin-left: 40px;
+}
+
+.tab3 {
+  margin-left: 60px;
+}
+
+.tab4 {
+  margin-left: 80px;
+}
+
+.tab5 {
+  margin-left: 100px;
+}
+
+.tab6 {
+  margin-left: 120px;
+}
+
+.tab7 {
+  margin-left: 140px;
+}
+
+/* Visible grid on flexgrid.html */
+
+.example-col {
+  background-color: #24C6DC;
+  color: #FFF;
+  height: 50px;
+  padding: 0 !important;
+}
+
+.white {
+  color: #FFF;
 }
 /*
 =================================================

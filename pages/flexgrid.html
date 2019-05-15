@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../scss/element.css">
+  <link rel="stylesheet" href="../scss/website.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <title>Element | Index</title>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-row">
+      <div class="grid-col header-bar padding-horizontal-small margin-remove">
+        <h1 class="header-bar-h1">Element Design System</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid-row margin-remove">
+      <div class="grid-col-nav margin-remove navigation">
+        <ul class="padding margin-remove">
+          <li><span style="cursor:pointer;font-weight:bold;color:#3A3A3A;" class="dropdown1open">Getting started</span><i class="fas fa-chevron-down" style="float:right;"></i></li>
+          <div class="navigation-dropdown-1">
+            <li><a href="../pages/index.html">About Element</a></li>
+            <li><a href="../pages/developers.html">Developers</a></li>
+            <li><a href="../pages/designers.html">Designers</a></li>
+          </div>
+          <li><a href="../pages/usagepolicy.html">Usage policy</a></li>
+          <li><a href="#!">Flex grid</a></li>
+          <li><span style="cursor:pointer;font-weight:bold;color:#3A3A3A;" class="dropdown2open">Components</span><i class="fas fa-chevron-down" style="float:right;"></i></li>
+          <div class="navigation-dropdown-2">
+            <li><a href="../pages/buttons.html">Buttons</a></li>
+            <li><a href="../pages/navigationbar.html">Navigation bar</a></li>
+            <li><a href="../pages/hero.html">Hero section</a></li>
+            <li><a href="../pages/jumbotron.html">Jumbotron</a></li>
+            <li><a href="../pages/footer.html">Footer</a></li>
+            <li><a href="../pages/modal.html">Modal</a></li>
+            <li><a href="../pages/searchbar.html">Search bar</a></li>
+          </div>
+        </ul>
+        <hr>
+        <ul class="padding margin-remove">
+          <li><a href="">UI style guide</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+          <li><a href="">GitHub repo</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+          <li><a href="">Creators portfolio</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+        </ul>
+      </div>
+
+      <div class="grid-col margin-remove">
+        <div class="container">
+          <div class="grid-row margin-remove">
+            <div class="grid-col content-header padding margin-remove">
+              <h2>Flex grid</h2>
+            </div>
+          </div>
+        </div>
+
+        <section class="container content-container">
+          <div class="grid-row margin-remove">
+            <div class="grid-col-50 content-left margin-remove padding"> <!-- Text content -->
+              <h3 class="border-bottom">Grid system</h3>
+              <p>Element uses Flexbox for its grid system. With recent compatibility issues being resolved, using Flexbox is an easy way to implement a responsive grid system with minimal code. It allows easy manipulation of child content like vertical centering that float based layouts struggle to offer without hacking away at workarounds.</p>
+              <h3 class="border-bottom margin-top">Element heirarchy</h3>
+              <h4 class="margin-top">Introduction</h4>
+              <p>Element's Flexbox grid uses a container element (likely a section), a row and a child column. This is the standard layout.</p>
+              <code class="code-snippet padding-small margin-bottom">
+                <span>&lt;section class="container"&gt;</span>
+                <span class="tab">&lt;div class="grid-row"&gt;</span>
+                <span class="tab2">&lt;div class="grid-col"&gt;</span>
+                <span class="tab3">&lt;h2>Hello world&lt;/h2&gt;</span>
+                <span class="tab2">&lt;/div&gt;</span>
+                <span class="tab">&lt;/div&gt;</span>
+                <span>&lt;/section&gt;</span>
+              </code>
+              <hr class="margin-vertical">
+              <h4 class="margin-top">Container</h4>
+              <p>The container is the parent element of the rows which spans the full width of the page. The rows are then nested within.</p>
+              <code class="code-snippet padding-small">
+                <span>&lt;section class="container"&gt;</span>
+                <span class="tab">&lt;div class="grid-row"&gt;</span>
+                <span class="tab2">&lt;!-- Content here --&gt;</span>
+                <span class="tab">&lt;/div&gt;</span>
+                <span>&lt;/section&gt;</span>
+              </code>
+              <hr class="margin-vertical">
+              <h4 class="margin-top">Row</h4>
+              <p>The row is the parent element of the columns. This is set to <code>display:flex</code> and a negative margin is applied to offset the margin applied by the columns</p>
+              <code class="code-snippet padding-small">
+                <span>&lt;div class="grid-row"&gt;</span>
+                <span class="tab">&lt;!-- Columns here --&gt;</span>
+                <span>&lt;/div&gt;</span>
+              </code>
+              <hr class="margin-vertical">
+              <h4 class="margin-top">Columns</h4>
+              <p>Columns are the child element of rows which hold your content. They are auto set to be equal width to fill your rows no matter how many columns are present or you can specify an exact width.</p>
+              <code class="code-snippet padding-small">
+                <span>&lt;div class="grid-row"&gt;</span>
+                <span class="tab">&lt;div class="grid-col"&gt;</span>
+                <span class="tab2">&lt;!-- Content here --&gt;</span>
+                <span class="tab">&lt;/div&gt;</span>
+                <span>&lt;/div&gt;</span>
+              </code>
+              <hr class="margin-vertical">
+              <h4 class="margin-top">Multiple columns</h4>
+              <p>You can nest multiple columns into a row and they will be automatically sized at an equal width. Gutters are applied as standard.</p>
+              <code class="code-snippet padding-small margin-bottom">
+                <span>&lt;div class="grid-row"&gt;</span>
+                <span class="tab">&lt;div class="grid-col"&gt;</span>
+                <span class="tab2">&lt;!-- Content here --&gt;</span>
+                <span class="tab">&lt;/div&gt;</span>
+                <span class="tab">&lt;div class="grid-col"&gt;</span>
+                <span class="tab2">&lt;!-- Content here --&gt;</span>
+                <span class="tab">&lt;/div&gt;</span>
+                <span class="tab">&lt;div class="grid-col"&gt;</span>
+                <span class="tab2">&lt;!-- Content here --&gt;</span>
+                <span class="tab">&lt;/div&gt;</span>
+                <span>&lt;/div&gt;</span>
+              </code>
+              <div class="grid-row">
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+              </div>
+              <p>You can also specify the width of a column using the class <code>grid-col-10</code> to <code>grid-col-90</code>. You can either make the the columns all add up to 100% or specify columns and just place auto columns alongside and they will take up the remaining space.</p>
+              <div class="grid-row">
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-col-70 example-col text-center"><p class="white">70%</p></div>
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-col-30 example-col text-center"><p class="white">30%</p></div>
+                <div class="grid-col-20 example-col text-center"><p class="white">20%</p></div>
+                <div class="grid-col example-col text-center"><p class="white">AUTO</p></div>
+              </div>
+              <hr>
+              <h4 class="margin-top">Aligning flex items</h4>
+              <p>You can align individual flex items outside of the alignment of the parent element. For example you could push a button to the right of a column with the rest of the content being pushed to the left. Use the following classes:</p>
+              <code class="code-snippet padding-small margin-bottom">.flex-item-right</code>
+              <code class="code-snippet padding-small">.flex-item-left</code>
+
+            </div>
+
+            <div class="grid-col content-right margin-remove">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div> <!-- Page container close -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/website.js"></script>
+</body>
+</html>
