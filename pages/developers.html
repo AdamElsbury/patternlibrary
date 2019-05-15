@@ -64,7 +64,7 @@
             <div class="grid-col-50 content-left margin-remove padding"> <!-- Text content -->
               <h3 class="border-bottom">Element vanilla library</h3>
               <p>The library provides front end engineers a collection of reusable web elements to plug into your own interfaces. All components are comprised of HTML, JS and SCSS partials to allow you to easily copy the code into your project. Simply install through npm or download the files and insert them into your project manually.</p>
-              <h3 class="border-bottom margin-top">Installation</h3>
+              <h3 class="border-bottom margin-top" id="installation">Installation</h3>
               <p class="margin-bottom">If you are using npm:</p>
               <code class="code-snippet padding-small">$ npm install --save element</code>
               <p class="margin-top">If you want to download the project:</p>
@@ -80,7 +80,7 @@
                   <button class="btn-secondary">DOWNLOAD</button>
                 </div>
               </div>
-              <h3 class="border-bottom">Dependencies</h3>
+              <h3 class="border-bottom" id="dependencies">Dependencies</h3>
               <p>Element uses a few dependencies to work. Please ensure they are installed else this design system will not work.</p>
               <h4>node-sass</h4>
               <p class="margin-bottom">Node-sass is a SASS compiler that is used to read this projects SCSS files. <b>This dependency is only needed for the SCSS version of the project.</b></p>
@@ -99,26 +99,27 @@
               <p class="margin-bottom">Element uses the free open source Font Awesome icon library. Installation for this is simple, include the following stylesheet link in your HTML document.</p>
               <p>Include in head:</p>
               <code class="code-snippet padding-small margin-bottom">&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"&gt;</code>
-
-
-
+              <hr>
+              <h3 class="border-bottom" id="integration">Integration with your project</h3>
+              <p>To get Element set up with your project simply download the project and place the following files in your project folder (if you installed using npm this step is not necessary):</p>
+              <code class="code-snippet padding-small margin-bottom">../element.scss</code>
+              <code class="code-snippet padding-small margin-bottom">../element.js</code>
+              <p>Once the files are in your project folder link them in your webpages.</p>
+              <p><b>Include the following in your head section of your webpage for the CSS file:</b></p>
+              <code class="code-snippet padding-small margin-bottom">&lt;link rel="stylesheet" href="../element.scss"&gt;</code>
+              <p><b>Include the following in your body section AFTER your jQuery link of your webpage for the JS file:</b></p>
+              <code class="code-snippet padding-small margin-bottom">&lt;link rel="stylesheet" href="../element.js"&gt;</code>
+              <p>Please note, in the src attribute for both examples above, include the location of the file where you saved it in your project library.</p>
+              <p>You should now be all set up and ready to go!</p>
             </div>
 
             <div class="grid-col content-right margin-remove">
               <div class="card padding-large">
-                <i class="fas fa-code inline-block margin-right" style="color:#24C6DC;font-size:1.5em;"></i><h4 class="inline-block">For developers</h4>
+                <i class="far fa-compass inline-block margin-right" style="color:#24C6DC;font-size:1.5em;"></i><h4 class="inline-block">Jump to</h4>
                 <ul class="margin-bottom">
-                  <li class="margin-vertical">Plug fully responsive components into your webpage</li>
-                  <li class="margin-vertical">Quickly edit the style of any component with SCSS variables</li>
-                  <li class="margin-vertical">Built with as few lines of code as possible to enable fast load times</li>
-                  <li class="margin-vertical">Transition effects built in to most components</li>
-                  <li class="margin-vertical">Quickly build layouts with our pre built FlexGrid system</li>
-                </ul>
-                <i class="fas fa-paint-brush inline-block margin-right margin-top" style="color:#24C6DC;font-size:1.5em;"></i><h4 class="inline-block">For designers</h4>
-                <ul class="margin-bottom">
-                  <li class="margin-vertical">Use our style guide and UI asset library to rapidly create interfaces</li>
-                  <li class="margin-vertical">All assets are user tested</li>
-                  <li class="margin-vertical">Built with Adobe XD</li>
+                  <li><a href="#installation" class="margin-top bold-anchor">INSTALLATION<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#dependencies" class="margin-top bold-anchor">DEPENDENCIES<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#integration" class="margin-top bold-anchor">INTEGRATION<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
                 </ul>
               </div>
             </div>
