@@ -288,10 +288,14 @@ brackets below.
 */
 
 p {
-  font-size: calc(14px + (14 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
   color: #171717;
 }
 
+li {
+  font-size: calc(13px + (13 - 11) * ((100vw - 300px) / (1600 - 300)));
+  color: #171717;
+}
 
 /*
 Because the font size is dictated with our calculation above

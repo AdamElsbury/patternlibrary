@@ -8,8 +8,6 @@
   <link rel="stylesheet" href="../scss/website.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <script type="text/javascript"src="../js/element.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <title>Element | Index</title>
 </head>
 <body>
@@ -23,8 +21,33 @@
 
   <div class="container">
     <div class="grid-row margin-remove">
-      <div class="grid-col-20 margin-remove">
-
+      <div class="grid-col-nav margin-remove navigation">
+        <ul class="padding margin-remove">
+          <li><span style="cursor:pointer;font-weight:bold;color:#3A3A3A;" class="dropdown1open">Getting started</span><i class="fas fa-chevron-down" style="float:right;"></i></li>
+          <div class="navigation-dropdown-1">
+            <li><a href="">About Element</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Designers</a></li>
+          </div>
+          <li><a href="">Usage policy</a></li>
+          <li><a href="">Flex grid</a></li>
+          <li><span style="cursor:pointer;font-weight:bold;color:#3A3A3A;" class="dropdown2open">Components</span><i class="fas fa-chevron-down" style="float:right;"></i></li>
+          <div class="navigation-dropdown-2">
+            <li><a href="">Buttons</a></li>
+            <li><a href="">Navigation bar</a></li>
+            <li><a href="">Hero section</a></li>
+            <li><a href="">Jumbotron</a></li>
+            <li><a href="">Footer</a></li>
+            <li><a href="">Modal</a></li>
+            <li><a href="">Search bar</a></li>
+          </div>
+        </ul>
+        <hr>
+        <ul class="padding margin-remove">
+          <li><a href="">UI style guide</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+          <li><a href="">GitHub repo</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+          <li><a href="">Creators portfolio</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+        </ul>
       </div>
 
       <div class="grid-col margin-remove">
@@ -54,11 +77,31 @@
               <h4 class="margin-top">Lightweight library</h4>
               <p>With less than 500 lines of CSS Element is a small, lightweight library that will not impact your page load times.</p>
             </div>
-            <div class="grid-col content-right margin-remove"></div>
+
+            <div class="grid-col content-right margin-remove">
+              <div class="card padding-large">
+                <i class="fas fa-code inline-block margin-right" style="color:#24C6DC;font-size:1.5em;"></i><h4 class="inline-block">For developers</h4>
+                <ul class="margin-bottom">
+                  <li class="margin-vertical">Plug fully responsive components into your webpage</li>
+                  <li class="margin-vertical">Quickly edit the style of any component with SCSS variables</li>
+                  <li class="margin-vertical">Built with as few lines of code as possible to enable fast load times</li>
+                  <li class="margin-vertical">Transition effects built in to most components</li>
+                  <li class="margin-vertical">Quickly build layouts with our pre built FlexGrid system</li>
+                </ul>
+                <i class="fas fa-paint-brush inline-block margin-right margin-top" style="color:#24C6DC;font-size:1.5em;"></i><h4 class="inline-block">For designers</h4>
+                <ul class="margin-bottom">
+                  <li class="margin-vertical">Use our style guide and UI asset library to rapidly create interfaces</li>
+                  <li class="margin-vertical">All assets are user tested</li>
+                  <li class="margin-vertical">Built with Adobe XD</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
       </div>
     </div>
   </div> <!-- Page container close -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/website.js"></script>
 </body>
 </html>
