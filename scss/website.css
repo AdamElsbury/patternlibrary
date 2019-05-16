@@ -223,3 +223,7 @@ navigation ul>li>span {
 .nav-container {
   background: linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
 }
+
+.nav-header {
+  color: #FFF;
+}
