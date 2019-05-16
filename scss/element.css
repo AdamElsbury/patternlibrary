@@ -640,16 +640,16 @@ Footer container to hold footer elements.
 =================================================
 
 [MODAL]
-Footer container to hold footer elements.
+Modal pop up dialog box
 */
 
 .modal-container {
   top: 0;
   left: 0;
   z-index: 1;
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
+  height: 100%;
+  width: 100%;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
