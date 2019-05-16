@@ -66,6 +66,15 @@
               <h3 class="border-bottom">Navigation bar</h3>
               <p>Element has a navigation bar template you can use. It is intentionally minimalistic as navigation bars vary greatly from website to website to allow you to add your own style. The navbar is responsive.</p>
               <p>Using flexbox element allows you to position links to the left, center and right of the container div.</p>
+              <div class="nav-container margin-vertical">
+                <a href="#" class="nav-logo">LOGO</a>
+                <ul class="nav-links">
+                  <li class="nav-item"><a href="#!">LINK 1</a></li>
+                  <li class="nav-item"><a href="#!">LINK 2</a></li>
+                  <li class="nav-item"><a href="#!">LINK 3</a></li>
+                </ul>
+              </div>
+
               <h3 class="border-bottom" id="basicusage">Basic usage</h3>
               <h4 class="margin-top">Container</h4>
               <p>The navbar has a container element .nav-container. Ensure your children links and logos go inside this container</p>
@@ -80,8 +89,9 @@
               <ul>
                 <li><code>&lt;img&gt;</code> Wrap in an <code>&lt;a&gt;</code> tag and use the class .nav-logo</code></li>
                 <li><code>&lt;ul&gt;</code> Use the child class .nav-links</li>
+                <li><code>&lt;li&gt;</code> Use the child class .nav-item</li>
               </ul>
-              <p><code>&lt;a&gt;</code> links must be nested within <code>&lt;li&gt;</code> elements within the unordered list.</p>
+              <p><code>&lt;a&gt;</code> links must be nested within <code>&lt;li&gt;</code> elements within the unordered list and given the .nav-item class.</p>
               <code class="code-snippet padding-small margin-bottom">
                 <span>&lt;div class="nav-container"&gt;</span>
                 <span class="tab">&lt;a href="#" class="nav-logo&gt;&lt;img src="#"&gt;&lt;/a&gt;</span>

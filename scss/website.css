@@ -213,3 +213,13 @@ navigation ul>li>span {
   box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
   padding: 10%;
 }
+
+/*
+=================================================
+=========    NAVIGATION BAR COMPONENT   =========
+=================================================
+*/
+
+.nav-container {
+  background: linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+}
