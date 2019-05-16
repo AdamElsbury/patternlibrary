@@ -65,7 +65,7 @@
             <div class="grid-col-50 content-left margin-remove padding"> <!-- Text content -->
               <h3 class="border-bottom">Buttons</h3>
               <p>Element comes with 6 different button styles aimed at usage in different scenarios based on content hierarchy or calls to action (CTA). The buttons can be found below.</p>
-              <h3 class="border-bottom margin-top">Basic usage</h3>
+              <h3 class="border-bottom margin-top" id="basicusage">Basic usage</h3>
               <p>The .btn class can be used on different elements such as:</p>
               <ul>
                 <li><code>&lt;a&gt;</code> Anchor tags</li>
@@ -73,25 +73,25 @@
                 <li><code>&lt;input type="submit"&gt;</code> Input submit tags</li>
               </ul>
               <h3 class="border-bottom margin-top">Variations</h3>
-              <h4 class="margin-top">Primary</h4>
+              <h4 class="margin-top" id="primary">Primary</h4>
               <p>The primary button style is meant to be used as the main call to action on the page and is intended to be used highly in the content hierarchy. It is designed to stand out within the interface. The primary button comes with a hover effect to give the user feedback.</p>
               <button class="btn-primary">PRIMARY</button>
               <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary"&gt;PRIMARY&lt;/button&gt;</code>
               <hr>
-              <h4 class="margin-top">Secondary</h4>
+              <h4 class="margin-top" id="secondary">Secondary</h4>
               <p>The secondary button style is meant to be used as the secondary call to action on the page and to compliment the primary action. It is intended to indicate an important action but is not the primary user goal.</p>
               <p>The secondary style is intentionally less apparent within the interface.</p>
               <button class="btn-secondary">SECONDARY</button>
               <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary"&gt;SECONDARY&lt;/button&gt;</code>
               <hr>
-              <h4 class="margin-top">Full width</h4>
+              <h4 class="margin-top" id="fullwidth">Full width</h4>
               <p>The full width button style is generally used within mobile viewports or when you wish to have the button fill the entire width of its parent element in elements such as cards or navigation bars. The full width button comes with a hover effect to give the user feedback.</p>
               <button class="btn-primary fw">PRIMARY FULL WIDTH</button>
               <button class="btn-secondary fw margin-top">SECONDARY FULL WIDTH</button>
               <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary"&gt;PRIMARY&lt;/button&gt;</code>
               <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary"&gt;SECONDARY&lt;/button&gt;</code>
               <hr>
-              <h4 class="margin-top">Rounded</h4>
+              <h4 class="margin-top" id="rounded">Rounded</h4>
               <p>You can apply the rounded modifier to either the primary or secondary button styles to change the default styling to increase the border radius. You can also apply it to the full width buttons.</p>
               <div class="grid-row">
                 <div class="grid-col">
@@ -103,12 +103,60 @@
               </div>
               <button class="btn-primary fw margin-top rounded">PRIMARY FULL WIDTH</button>
               <button class="btn-secondary fw margin-top rounded">SECONDARY FULL WIDTH</button>
-              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary"&gt;PRIMARY&lt;/button&gt;</code>
-              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary"&gt;SECONDARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary rounded"&gt;PRIMARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary rounded"&gt;SECONDARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary fw rounded"&gt;SECONDARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary fw rounded"&gt;SECONDARY&lt;/button&gt;</code>
+              <hr>
+              <h4 class="margin-top" id="square">Square</h4>
+              <p>You can apply the square modifier to either the primary or secondary button styles to change the default styling to reduce the border radius. You can also apply it to the full width buttons.</p>
+              <div class="grid-row">
+                <div class="grid-col">
+                  <button class="btn-primary square">PRIMARY</button>
+                </div>
+                <div class="grid-col text-right">
+                  <button class="btn-secondary square">SECONDARY</button>
+                </div>
+              </div>
+              <button class="btn-primary fw margin-top square">PRIMARY FULL WIDTH</button>
+              <button class="btn-secondary fw margin-top square">SECONDARY FULL WIDTH</button>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary square"&gt;PRIMARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary square"&gt;SECONDARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary fw square"&gt;SECONDARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary fw square"&gt;SECONDARY&lt;/button&gt;</code>
+              <hr>
+              <h4 class="margin-top" id="nohover">No hover</h4>
+              <p>You can apply the no hover modifier to any button element to remove the hover effect completely.</p>
+              <div class="grid-row">
+                <div class="grid-col">
+                  <button class="btn-primary no-hover-primary">PRIMARY</button>
+                </div>
+                <div class="grid-col text-right">
+                  <button class="btn-secondary no-hover-secondary">SECONDARY</button>
+                </div>
+              </div>
+              <button class="btn-primary no-hover-primary fw margin-top">PRIMARY FULL WIDTH</button>
+              <button class="btn-secondary no-hover-secondary fw margin-top">SECONDARY FULL WIDTH</button>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary no-hover"&gt;PRIMARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary no-hover"&gt;SECONDARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-primary fw no-hover"&gt;SECONDARY&lt;/button&gt;</code>
+              <code class="code-snippet padding-small margin-vertical">&lt;button class="btn-secondary fw no-hover"&gt;SECONDARY&lt;/button&gt;</code>
 
             </div>
 
             <div class="grid-col content-right margin-remove">
+              <div class="card padding-large">
+                <i class="far fa-compass inline-block margin-right" style="color:#24C6DC;font-size:1.5em;"></i><h4 class="inline-block">Jump to</h4>
+                <ul class="margin-bottom content-right-nav">
+                  <li><a href="#basicusage" class="margin-top bold-anchor">BASIC USAGE<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#primary" class="margin-top bold-anchor">PRIMARY<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#secondary" class="margin-top bold-anchor">SECONDARY<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#fullwidth" class="margin-top bold-anchor">FULL WIDTH<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#rounded" class="margin-top bold-anchor">ROUNDED<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#square" class="margin-top bold-anchor">SQUARE<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#nohover" class="margin-top bold-anchor">NO HOVER<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
