@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../scss/element.css">
+  <link rel="stylesheet" href="../scss/website.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <title>Element | Index</title>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-row">
+      <div class="grid-col header-bar padding-horizontal-small margin-remove">
+        <h1 class="header-bar-h1">Element Design System</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid-row margin-remove">
+      <div class="grid-col-nav margin-remove navigation">
+        <ul class="padding margin-remove">
+          <li><span style="cursor:pointer;font-weight:bold;color:#3A3A3A;" class="dropdown1open">Getting started</span><i class="fas fa-chevron-down" style="float:right;"></i></li>
+          <div class="navigation-dropdown-1">
+            <li><a href="../pages/index.html">About Element</a></li>
+            <li><a href="../pages/developers.html">Developers</a></li>
+            <li><a href="../pages/designers.html">Designers</a></li>
+          </div>
+          <li><a href="#!">Usage policy</a></li>
+          <li><a href="../pages/flexgrid.html">Flex grid</a></li>
+          <li><a href="../pages/text.html">Responsive text</a></li>
+          <li><span style="cursor:pointer;font-weight:bold;color:#3A3A3A;" class="dropdown2open">Components</span><i class="fas fa-chevron-down" style="float:right;"></i></li>
+          <div class="navigation-dropdown-2">
+            <li><a href="../pages/buttons.html">Buttons</a></li>
+            <li><a href="../pages/navigationbar.html">Navigation bar</a></li>
+            <li><a href="../pages/hero.html">Hero section</a></li>
+            <li><a href="../pages/jumbotron.html">Jumbotron</a></li>
+            <li><a href="../pages/footer.html">Footer</a></li>
+            <li><a href="../pages/modal.html">Modal</a></li>
+            <li><a href="../pages/searchbar.html">Search bar</a></li>
+          </div>
+        </ul>
+        <hr>
+        <ul class="padding margin-remove">
+          <li><a href="">UI style guide</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+          <li><a href="">GitHub repo</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+          <li><a href="">Creators portfolio</a><i class="fas fa-external-link-alt" style="float:right;"></i></li>
+        </ul>
+      </div>
+
+      <div class="grid-col margin-remove">
+        <div class="container">
+          <div class="grid-row margin-remove">
+            <div class="grid-col content-header padding margin-remove">
+              <h2>Navigation bar</h2>
+            </div>
+          </div>
+        </div>
+
+        <section class="container content-container">
+          <div class="grid-row margin-remove">
+            <div class="grid-col-50 content-left margin-remove padding"> <!-- Text content -->
+              <h3 class="border-bottom">Navigation bar</h3>
+              <p>Element has a navigation bar template you can use. It is intentionally minimalistic as navigation bars vary greatly from website to website to allow you to add your own style. The navbar is responsive.</p>
+              <p>Using flexbox element allows you to position links to the left, center and right of the container div.</p>
+              <h3 class="border-bottom" id="basicusage">Basic usage</h3>
+              <h4 class="margin-top">Container</h4>
+              <p>The navbar has a container element .nav-container. Ensure your children links and logos go inside this container</p>
+              <code class="code-snippet padding-small margin-bottom">
+                <span>&lt;div class="nav-container"&gt;</span>
+                <span class="tab">&lt;!-- Links and logos go here! --&gt;</span>
+                <span>&lt;/div&gt;</span>
+              </code>
+              <hr>
+              <h4 class="margin-top" id="navitems">Nav items</h4>
+              <p>You can place an <code>&lt;img&gt;</code> element or a <code>&lt;ul&gt;</code> element within the nav container. There are two classes .nav-links and .nav-logo:</p>
+              <ul>
+                <li><code>&lt;img&gt;</code> Wrap in an <code>&lt;a&gt;</code> tag and use the class .nav-logo</code></li>
+                <li><code>&lt;ul&gt;</code> Use the child class .nav-links</li>
+              </ul>
+              <p><code>&lt;a&gt;</code> links must be nested within <code>&lt;li&gt;</code> elements within the unordered list.</p>
+              <code class="code-snippet padding-small margin-bottom">
+                <span>&lt;div class="nav-container"&gt;</span>
+                <span class="tab">&lt;a href="#" class="nav-logo&gt;&lt;img src="#"&gt;&lt;/a&gt;</span>
+                <span class="tab">&lt;ul class="nav-links&gt;</span>
+                <span class="tab2">&lt;!-- Links go here --&gt;</span>
+                <span>&lt;/div&gt;</span>
+              </code>
+              <hr>
+              <h4 class="margin-top" id="positioning">Positioning child elements</h4>
+              <p>You can position either type of element within the nav-container using an order class:</p>
+              <ul>
+                <li><code>.item1</code></li>
+                <li><code>.item2</code></li>
+                <li><code>.item3</code></li>
+              </ul>
+              <p>Item-1 is displayed first, item-2 is second and item-3 is last (going from left to right). Each element has an equal space between so you don't have to worry about positioning elements.</p>
+              <hr>
+              <h4 class="margin-top" id="sizing">Sizing navigation bar</h4>
+              <p>The way the navigation bar works is it automatically expands to whatever content is placed within it. If you wish to give the navigation bar a minimum height, please change the size of the <a> tags using height and line height (please ensure both values are the same)</p>
+              <code class="code-snippet padding-small margin-bottom">
+                <span>.nav-item a {</span>
+                <span class="tab">height: (insert your value here in px);</span>
+                <span class="tab">line-height: (insert your value here in px);</span>
+                <span>}</span>
+              </code>
+
+
+            </div>
+
+            <div class="grid-col content-right margin-remove">
+              <div class="card padding-large">
+                <i class="far fa-compass inline-block margin-right" style="color:#24C6DC;font-size:1.5em;"></i><h4 class="inline-block">Jump to</h4>
+                <ul class="margin-bottom content-right-nav">
+                  <li><a href="#basicusage" class="margin-top bold-anchor">BASIC USAGE<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#navitems" class="margin-top bold-anchor">NAV ITEMS<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#positioning" class="margin-top bold-anchor">POSITIONING<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                  <li><a href="#sizing" class="margin-top bold-anchor">SIZING<i class="fas fa-chevron-right" style="margin-left:2%;"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div> <!-- Page container close -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/website.js"></script>
+</body>
+</html>
