@@ -49,3 +49,21 @@ To summarise, the main benefits for using a pattern library include:
 Carbon is an incredibly detailed framework and pattern library covering everything from typography, components, grids, colours, guidelines, accessibility and more. Having such a large amount of content to display in a documentation website, Carbon does a very good job of segmenting its content with the use of a left sided navigation bar with clearly defined categories and dropdown menus. 
 
 It places its main content body in the remaining screen space to the right of the navigation and segmenting the content even further into usage, code and style. It achieves this through a top positioned internal navigation bar which switches the entire main content body. This is entirely necessary within a pattern library as extensive as Carbon but could cause UX issues in a smaller library where users will have to conduct multiple clicks to return to content after navigating to a new section. This content navigation scheme is great for a large library but unnecessary for a smaller one.
+
+Additional functionality include a search function and visible version of the design library. Again, the search function is only necessary for a large library and will likely not be necessary for this project unless the user research shows otherwise. One interesting functionality Carbon displays is a "Next section" link which takes you to the next heirarchical component or guideline within a related category. This could allow users to travel through the user journey easier than having to click on individual links to move between pages.
+
+### Google material design
+
+Google takes an identical approach to navigation as Carbon. The documentation site has a left sided navigation bar with segmented categories to allow users to expand to locate specific areas of interest. Material has a main content body on the right of the navigation. The difference between Carbon and Material is that Material places a higher emphasis on external links to articles and uses far more image diagrams containing instructions on how to implement components and design guidelines. This could be beneficial to newer users but probably will not provide as much benefit to experienced developers who will want to plug components in quickly. This will be interesting to explore during user research.
+
+Material goes into more detail on fundamental principles for design than Carbon does and provides more evidence at an intended direction to appeal to beginners in the industry.
+
+IMAGE OF MATERIAL DIAGRAM HERE
+
+Both documentation websites display in-page sub links for the user to jump to the relevent section of the page. Both websites display these links first in the content column before the content. This is a good way to instruct beginners what to expect on the webpage and also allow experienced users to navigate to a specific section and not waste time browsing.
+
+#### Summary
+
+Navigation plays a big part in the scructure of the documentation page for a pattern library down to the sheer number of different pages. Allowing users the option to both browse and navigate to specific elements is imperative within the user journey. Main categories of content such as components, usage or guidelines should be immediately visible within the navigation and expand to show their child contents such as individual components.
+
+Content needs to be structured in a linear fashion with things like installation at the top and customisation at the bottom of the content heirarchy.
