@@ -1,6 +1,16 @@
-no oneINSERT IMAGE OF INDEX PAGE here
+
 
 # Element pattern library
+
+**Documentation link**
+
+Element documentation website:
+![Element](https://adamelsbury.github.io/patternlibrary/pages/index.html "Element")
+
+Github repository:
+![Github repo](https://github.com/AdamElsbury/patternlibrary "Github repo")
+
+
 
 ## Introduction
 
@@ -10,7 +20,7 @@ A pattern library is a documented collection of user interface (UI) design eleme
 
 Pattern libraries are not only a place to copy and paste components but provide literature on things like design guidelines, design identity and industry best practice. Pattern libraries are more commonly created by large corporations like IBM with [Carbon design suite](https://www.carbondesignsystem.com/ "Carbon design system"), [Google's Material design](https://material.io/design/ "Google's material design") and [Apple's Design suite](https://developer.apple.com/design/ "Apple's design system"). These pattern libraries are necessary within large corporations due to the sheer number of designers and developers working on the same projects. If there were no guidelines or frameworks present, the larger projects would have inconsistencies.
 
-Whilst these libraries have been primarily pushed by bigger tech companies, many smaller studios and solo designers/developers have followed suit. It is becoming more commonly used as a marketing tool for freelancers to find projects or get hired by a studio. A pattern library is a great way for a candidate to show their working process, organisational skills, design continuity and ability to comminicate those design and development practices to a potential employer or candidate.
+Whilst these libraries have been primarily pushed by bigger tech companies, many smaller studios and solo designers/developers have followed suit. It is becoming more commonly used as a marketing tool for freelancers to find projects or get hired by a studio. A pattern library is a great way for a candidate to show their working process, organisational skills, design continuity and ability to communicate those design and development practices to a potential employer or candidate.
 
 ### Project aims
 
@@ -37,7 +47,7 @@ The navigation example can be extrapolated to lots of other common website compo
 To summarise, the main benefits for using a pattern library include:
 
 1. Pattern libraries allow developers and designers to reuse components built by someone else, speeding up development or design time.
-2. They provide a developer or designer to consolodate their assets for use in future projects.
+2. They provide a developer or designer to consolidate their assets for use in future projects.
 3. They allow a developer or designer to evidence their work, working process and documentation to coincide with their portfolio.
 4. They provide guidelines on usage which is extremely beneficial to newer members of the industry.
 5. They allow for design continuity on larger projects.
@@ -50,7 +60,7 @@ Carbon is an incredibly detailed framework and pattern library covering everythi
 
 It places its main content body in the remaining screen space to the right of the navigation and segmenting the content even further into usage, code and style. It achieves this through a top positioned internal navigation bar which switches the entire main content body. This is entirely necessary within a pattern library as extensive as Carbon but could cause UX issues in a smaller library where users will have to conduct multiple clicks to return to content after navigating to a new section. This content navigation scheme is great for a large library but unnecessary for a smaller one.
 
-Additional functionality include a search function and visible version of the design library. Again, the search function is only necessary for a large library and will likely not be necessary for this project unless the user research shows otherwise. One interesting functionality Carbon displays is a "Next section" link which takes you to the next heirarchical component or guideline within a related category. This could allow users to travel through the user journey easier than having to click on individual links to move between pages.
+Additional functionality include a search function and visible version of the design library. Again, the search function is only necessary for a large library and will likely not be necessary for this project unless the user research shows otherwise. One interesting functionality Carbon displays is a "Next section" link which takes you to the next hierarchical component or guideline within a related category. This could allow users to travel through the user journey easier than having to click on individual links to move between pages.
 
 #### Google material design
 
@@ -58,17 +68,19 @@ Google takes an identical approach to navigation as Carbon. The documentation si
 
 Material goes into more detail on fundamental principles for design than Carbon does and provides more evidence at an intended direction to appeal to beginners in the industry.
 
-IMAGE OF MATERIAL DIAGRAM HERE
+Material image:
+![Material](https://github.com/AdamElsbury/patternlibrary/assets/images/material.png "Material")
 
-Both documentation websites display in-page sub links for the user to jump to the relevent section of the page. Both websites display these links first in the content column before the content. This is a good way to instruct beginners what to expect on the webpage and also allow experienced users to navigate to a specific section and not waste time browsing.
+
+Both documentation websites display in-page sub links for the user to jump to the relevant section of the page. Both websites display these links first in the content column before the content. This is a good way to instruct beginners what to expect on the webpage and also allow experienced users to navigate to a specific section and not waste time browsing.
 
 #### Summary
 
-Navigation plays a big part in the scructure of the documentation page for a pattern library down to the sheer number of different pages. Allowing users the option to both browse and navigate to specific elements is imperative within the user journey. Main categories of content such as components, usage or guidelines should be immediately visible within the navigation and expand to show their child contents such as individual components.
+Navigation plays a big part in the structure of the documentation page for a pattern library down to the sheer number of different pages. Allowing users the option to both browse and navigate to specific elements is imperative within the user journey. Main categories of content such as components, usage or guidelines should be immediately visible within the navigation and expand to show their child contents such as individual components.
 
-Content needs to be structured in a linear fashion with things like installation at the top and customisation at the bottom of the content heirarchy. In page links are important to jump to specific sections on pages with lots of content. Image diagrams of abstract design decisions could be beneficial to newer users to help them understand in a less technical format.
+Content needs to be structured in a linear fashion with things like installation at the top and customisation at the bottom of the content hierarchy. In page links are important to jump to specific sections on pages with lots of content. Image diagrams of abstract design decisions could be beneficial to newer users to help them understand in a less technical format.
 
-Both frameworks displayed an easy to understand installation page for downloading the frameworks and seperated the individual component installations on different pages. Code snippets were used throughout for easy copy and pasting for the user.
+Both frameworks displayed an easy to understand installation page for downloading the frameworks and separated the individual component installations on different pages. Code snippets were used throughout for easy copy and pasting for the user.
 
 ### Pattern library creation frameworks
 
@@ -84,7 +96,9 @@ This project will create its framework from scratch.
 
 The "Design thinking" methodology was first introduced to myself during an internship at IBM. The process is heavily focused on empathizing with end users first before any designs are sketched or ideated upon. Once the goals and pain points of the end user are understood the project will progress to ideation of solutions. Once the solutions have been solidified a prototype is created and tested and the process is completed until the project is at a satisfactory quality.
 
-IMAGE OF THE PROCESS HERE
+Design process:
+![Design process](https://adamelsbury.github.io/patternlibrary/assets/images/designprocess.jpg "Design process")
+
 
 ## Test plan
 
@@ -97,7 +111,7 @@ A pattern library must be fully functional when a user downloads the framework a
 The testing specification for this project can be found below;
 
 1. Cross browser testing
-2. Internal page links and external page link href testing
+2. Internal page links and external page link ```href``` testing
 3. HTML & CSS validation compliance with web standards
 4. Accessibility testing for screen readers
 5. Accessibility testing for colour blind users
@@ -120,7 +134,7 @@ In addition to making sure everything works from a technical standpoint it is im
 
 Building from what was found in the research stage of this project in both Carbon and Material frameworks a specification list was created. The specification list encompasses all the required components to be designed and developed and what features the documentation site needs.
 
-The aim of this project is to create a dynamic framework to allow both experienced and new web designers and developers to improve their worklow. In order to achieve this abstract components need to be completed to allow users to layout web pages and smaller components that can be grouped together to create larger functional elements in accordance with Brad Frost's [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/ "Atomic design") methodology.
+The aim of this project is to create a dynamic framework to allow both experienced and new web designers and developers to improve their workflow. In order to achieve this abstract components need to be completed to allow users to layout web pages and smaller components that can be grouped together to create larger functional elements in accordance with Brad Frost's [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/ "Atomic design") methodology.
 
 The specification list can be found below:
 
@@ -166,7 +180,7 @@ To establish benchmarks against industry standard pattern libraries 3 participan
 
 None of the users were observed but were contacted throughout the test via text messenger. The test was to be stopped and noted if anyone got lost in the navigation. All three participants completed the tasks and were openly questioned about their subjective opinions afterwards to gain some external insight into the pros and cons of each documentation design. Here was the most important feedback
 
-..* All three users preferred the Carbon design layout because of the way they lay out the component examples. The users felt material components were confusing to read due to the exessive usage of large image elements.
+..* All three users preferred the Carbon design layout because of the way they lay out the component examples. The users felt material components were confusing to read due to the excessive usage of large image elements.
 ..* Two users liked the material layout better aesthetically but provided no tangible benefit for why they preferred the design
 ..* All three users preferred the way Carbon laid out its documentation
 ..* One user found the material side navigation confusing and took over a minute to locate the button component
@@ -180,15 +194,17 @@ The three participants overwhelmingly agreed that Carbon was easier to read and 
 
 ### Low fidelity design
 
-With the user feedback and a heavy influence from the Carbon design system a low fidelity wireframe was produced for the component pages. The page was shown to the same three users and was asked it it reflected what they expected from the task test. All 3 users agreed that the design met what they wanted and they liked the simplicity of the design.
+With the user feedback and a heavy influence from the Carbon design system a low fidelity wireframe was produced for the component pages. The page was shown to the same three users and was asked if it reflected what they expected from the task test. All 3 users agreed that the design met what they wanted and they liked the simplicity of the design.
 
-LOW FIDELITY WIREFRAME HERE
+Low fidelity design:
+![Low fidelity wireframe](https://adamelsbury.github.io/patternlibrary/assets/images/lowfi.png "Low fidelity")
+
 
 ### High fidelity design & prototype
 
 Once the low fidelity layout was approved by the users it was important to create a workable prototype to conduct live usability testing to ensure all the needs of the users were met.
 
-As outlined in the research a heavy emphasis on navigation is present within all pattern libraries researched and is a key user requirement. As such the navigation will take up important real estate on the left side of the screen high on the content hierarchy. Navigation links will be segmented with dropdowns to allow users to select specific sections for quick access. Primary content will be displayed in the right hand section with visible working examples high in the content heirarchy with clear code snippets on how to use the components.
+As outlined in the research a heavy emphasis on navigation is present within all pattern libraries researched and is a key user requirement. As such the navigation will take up important real estate on the left side of the screen high on the content hierarchy. Navigation links will be segmented with dropdowns to allow users to select specific sections for quick access. Primary content will be displayed in the right hand section with visible working examples high in the content hierarchy with clear code snippets on how to use the components.
 
 The low fidelity prototype was expanded upon and the high fidelity prototype was created. The wireframes can be found below. Components are included in the related page:
 
@@ -237,7 +253,7 @@ Search bar page:
 
 **Float layout**
 
-Due to previous experience with a freelance commission, there are some issues with float based layouts. The layouts require many media queries to make the layout work as the float rules break when the browser is resized. This makes grid > column layouts requiring much more code than other options in addition to the numerous media queries. Keeping libraries small is very important to users as no one will use a bloated library as it will affect load speed times. Additionally you have to create long winded workarounds for things like vertical and horizontal centring of column content by using float:none; rules, which affects the layout.
+Due to previous experience with a freelance commission, there are some issues with float based layouts. The layouts require many media queries to make the layout work as the float rules break when the browser is resized. This makes grid > column layouts requiring much more code than other options in addition to the numerous media queries. Keeping libraries small is very important to users as no one will use a bloated library as it will affect load speed times. Additionally you have to create long winded workarounds for things like vertical and horizontal centring of column content by using ```float:none;``` rules, which affects the layout.
 
 Float layout issue from commission website:
 ![Float issue page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/floatissue1.png "Float issue screenshot")
@@ -278,7 +294,9 @@ font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 ```
 
-The calculation works by taking an initial value (```14px```) and then giving a range, with the first value being the maximum value and the second value being the minimum. 300px subtracted from 100vw is the range of viewport size movement. Without these ranges limiting the difference the values become comical with the text becoming the equivalent size of 1px on small viewports and up to 150px on larger viewports.
+The calculation works by taking an initial value (```14px```) and then giving a range, with the first value being the maximum value and the second value being the minimum. ```300px``` subtracted from ```100vw``` is the range of viewport size movement. Without these ranges limiting the difference the values become comical with the text becoming the equivalent size of ```1px``` on small viewports and up to ```150px``` on larger viewports.
+
+The responsive rules apply to all headers and ```<p>``` elements.
 
 ### Buttons
 
@@ -291,6 +309,8 @@ These buttons give the user plenty of options to designate lots of different fun
 The navigation bar is simply implemented. A custom container was created to span 100% screen width. 3 main columns within the container are advised to the user and can be changed order using the ```.item-1``` to ```.item-3``` flex item classes. This allows the user the manipulate the order of the elements by changing the flex order. Placing navigation links was simple, creating a link container unordered list and then nesting list items within with ```<a>``` tags for the actual links.
 
 The hover effect was achieved using ```.a:hover``` class for the anchor tags.
+
+Side bar navigation was included to the right of the content on larger pages to allow the users to navigate to specific portions of the page. The decision was not to follow carbon and place it above the content as it was easier to see alongside the content.
 
 ### Hero section
 
@@ -335,3 +355,5 @@ After they navigated through the documentation website all three were asked a se
 
 User feedback:
 ![User feedback](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/table.png "User feedback")
+
+In addition to the documentation on the website the CSS rules have been heavily commented to allow users to easily understand which parts of the code to change.
