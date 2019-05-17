@@ -140,6 +140,58 @@ This specification list will allow users to create web pages that allow user fun
 
 Additionally a specification list needs to be created for the documentation website to adequately allow users to understand how the components work, how to install and customise them and how to install the Element design system.
 
-### 
+### Documentation website
+
+1. Instructions what Element is and why the user would benefit from using it
+2. Developer specific page for installation
+3. Designer specific page for installation
+4. Usage policy for attribution
+5. Link to UI style guide
+6. Link to GitHub repository
+7. Link to creator's portfolio
+8. List of components, how to install them and how to customise them
+9. Working examples in the web page of every component
+10. Code snippets for every component to allow users to copy and paste
+
+## Design, Planning, Experimentation & Implementation
+
+### Carbon & Material user testing
+
+To establish benchmarks against industry standard pattern libraries 3 participants were given a link to Carbon and Material design systems and asked to complete the following tasks. 
+
+1. Locate the installation literature and read it until you have a good understanding of what is required
+2. Navigate to the typography section and note the font face
+3. Navigate to the button component and read the literature until you have a good understanding of how to use them
+4. Navigate to the design kit and download it
+
+None of the users were observed but were contacted throughout the test via text messenger. The test was to be stopped and noted if anyone got lost in the navigation. All three participants completed the tasks and were openly questioned about their subjective opinions afterwards to gain some external insight into the pros and cons of each documentation design. Here was the most important feedback
+
+..* All three users preferred the Carbon design layout because of the way they lay out the component examples. The users felt material components were confusing to read due to the exessive usage of large image elements.
+..* Two users liked the material layout better aesthetically but provided no tangible benefit for why they preferred the design
+..* All three users preferred the way Carbon laid out its documentation
+..* One user found the material side navigation confusing and took over a minute to locate the button component
+..* All three users liked the way Carbon laid out the example first on component pages followed by a code snippet
+..* Two users found the design guideline emphasis of Material too imposing and would feel restricted using the components in their own designs
+..* All three users found the design emphasis of Material unnecessary
+
+#### Summary
+
+The three participants overwhelmingly agreed that Carbon was easier to read and implement from a Development standpoint and liked the way they laid out components followed by code snippets for easy access. The consensus was Material was too focused on how users should use their components instead of showing them how to use it. Carbon was the more preferred choice of layout.
+
+### Low fidelity design
+
+With the user feedback and a heavy influence from the Carbon design system a low fidelity wireframe was produced for the component pages. The page was shown to the same three users and was asked it it reflected what they expected from the task test. All 3 users agreed that the design met what they wanted and they liked the simplicity of the design.
+
+LOW FIDELITY WIREFRAME HERE
+
+### High fidelity design & prototype
+
+Once the low fidelity layout was approved by the users it was important to create a workable prototype to conduct live usability testing to ensure all the needs of the users were met. 
+
+As outlined in the research a heavy emphasis on navigation is present within all pattern libraries researched and is a key user requirement. As such the navigation will take up important real estate on the left side of the screen high on the content heirarchy. Navigation links will be segmented with dropdowns to allow users to select specific sections for quick access. Primary content will be displayed in the right hand section with visible working examples high in the content heirarchy with clear code snippets on how to use the components.
+
+The low fidelity prototype was expanded upon and the high fidelity prototype was created. The wireframes can be found below:
+
+
 
 
