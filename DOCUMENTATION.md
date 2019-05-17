@@ -325,4 +325,13 @@ The modal has a 100% height and width container which has a reduced opacity to o
 
 ### Search bar
 
-The search bar is comprised of 
+The search bar is comprised of a container, a form element and a right floated icon container with the submit action.
+
+## Conclusion
+
+With the documentation website and all the components set up, the same three participants from earlier were consulted to establish the efficacy of the website. All three participants were able to locate the download links and documentation for each component and felt confident they could create a project with Element.
+
+After they navigated through the documentation website all three were asked a series of questions to establish the subjective opinions. The questions and answers are as follows:
+
+User feedback:
+![User feedback](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/table.png "User feedback")
