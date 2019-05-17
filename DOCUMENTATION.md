@@ -1,4 +1,4 @@
-INSERT IMAGE OF INDEX PAGE here
+no oneINSERT IMAGE OF INDEX PAGE here
 
 # Element pattern library
 
@@ -188,48 +188,141 @@ LOW FIDELITY WIREFRAME HERE
 
 Once the low fidelity layout was approved by the users it was important to create a workable prototype to conduct live usability testing to ensure all the needs of the users were met.
 
-As outlined in the research a heavy emphasis on navigation is present within all pattern libraries researched and is a key user requirement. As such the navigation will take up important real estate on the left side of the screen high on the content heirarchy. Navigation links will be segmented with dropdowns to allow users to select specific sections for quick access. Primary content will be displayed in the right hand section with visible working examples high in the content heirarchy with clear code snippets on how to use the components.
+As outlined in the research a heavy emphasis on navigation is present within all pattern libraries researched and is a key user requirement. As such the navigation will take up important real estate on the left side of the screen high on the content hierarchy. Navigation links will be segmented with dropdowns to allow users to select specific sections for quick access. Primary content will be displayed in the right hand section with visible working examples high in the content heirarchy with clear code snippets on how to use the components.
 
-The low fidelity prototype was expanded upon and the high fidelity prototype was created. The wireframes can be found below:
+The low fidelity prototype was expanded upon and the high fidelity prototype was created. The wireframes can be found below. Components are included in the related page:
 
 Index page:
 ![Index page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/abouteds.png "Index wireframe")
 
 Developers page:
-![Developers page](../assets/images/developers.png "Developers wireframe")
+![Developers page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/developers.png "Developers wireframe")
 
 Designers page:
-![Designers page](../assets/images/designers.png "Designers wireframe")
+![Designers page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/designers.png "Designers wireframe")
 
 Usage policy page:
-![Usage policy page](../assets/images/usagepolicy.png "Usage policy wireframe")
+![Usage policy page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/usagepolicy.png "Usage policy wireframe")
 
 Flex grid page:
-![Flex grid page](../assets/images/flexgrid.png "Flex grid wireframe")
+![Flex grid page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/flexgrid.png "Flex grid wireframe")
 
 Responsive text page:
-![Responsive text page](../assets/images/responsivetext.png "Responsive text wireframe")
+![Responsive text page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/responsivetext.png "Responsive text wireframe")
 
 Buttons page:
-![Buttons page](../assets/images/buttons.png "Buttons wireframe")
+![Buttons page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/buttons.png "Buttons wireframe")
 
 Navigation bar page:
-![Navigation bar page](../assets/images/navigationbar.png "Navigation bar wireframe")
-
-Designers page:
-![Designers page](../assets/images/designers.png "Designers wireframe")
+![Navigation bar page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/navigationbar.png "Navigation bar wireframe")
 
 Hero page:
-![Hero page](../assets/images/hero.png "Hero wireframe")
+![Hero page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/hero.png "Hero wireframe")
 
 Jumbotron page:
-![Jumbotron page](../assets/images/jumbotron.png "Jumbotron wireframe")
+![Jumbotron page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/jumbotron.png "Jumbotron wireframe")
 
 Footer page:
-![Footer page](../assets/images/footer.png "Footer wireframe")
+![Footer page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/footer.png "Footer wireframe")
 
 Modal page:
-![Modal page](../assets/images/modal.png "Modal wireframe")
+![Modal page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/modal.png "Modal wireframe")
 
 Search bar page:
-![Search bar page](../assets/images/searchbar.png "Designers wireframe")
+![Search bar page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/searchbar.png "Designers wireframe")
+
+### Experimentation
+
+#### Responsive grids
+
+**Float layout**
+
+Due to previous experience with a freelance commission, there are some issues with float based layouts. The layouts require many media queries to make the layout work as the float rules break when the browser is resized. This makes grid > column layouts requiring much more code than other options in addition to the numerous media queries. Keeping libraries small is very important to users as no one will use a bloated library as it will affect load speed times. Additionally you have to create long winded workarounds for things like vertical and horizontal centring of column content by using float:none; rules, which affects the layout.
+
+Float layout issue from commission website:
+![Float issue page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/floatissue1.png "Float issue screenshot")
+
+Due to the media query, code size, content centring and responsive issues experienced with float layouts they will not be used.
+
+**Flexbox layouts**
+
+Flexbox has recently gained much momentum in the development sphere with much better browser support. Historically it was an option but caused headaches specifically in Firefox and Safari. With recent advancements of support it is a viable alternative to float layouts. Flexbox grid layouts can be created with very few lines of code, as low as 30 lines to create a fully function, responsive layout.
+
+Flexbox also solves the issue of positioning content within columns and vertical centring as they are either included as default or easily attainable with a few lines of code. Also as a user it is much easier to use flexbox as you do not have to calculate % based columns as the auto columns flexbox offers simply take up the remaining space in a row.
+
+Due to its ease of use, ability to position column content and low amount of code flexbox will be used in this project.
+
+**Flexbox experimentation & implementation**
+
+In order to test the viability of the flexbox layout a codepen was created to establish how easy it was to create.
+
+Codepen for flexbox grid experimentation:
+![Codepen for flexbox grid](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/flexboxcp.png "Flexbox grid")
+
+The flexbox layout was incredibly easy to achieve with less that 45 lines of code needed. The above was achieved on the first try following a flexbox guide from CSS Tricks website. The only addition to enter the final code is to include a single media query for viewports of less than ```500px``` to stack the column content vertically instead of horizontally.
+
+The grid works by having a container element spanning 100%, a single row set to ```display:flex``` to display its child elements as flex items and then however many columns you require. Each column is set to flex:1 to ensure they are displayed in sequence that they are coded. This is easily manipulated by changing the integer.
+
+Applying margins is also simple by applying negative margin to the row and positive margins to the columns to offset and provide a gutter between the columns (as seen in the codepen above). This is a far easier option that applying empty gutter columns in a float based layout.
+
+For user specified columns the flex display is removed and a % width is applied. These fixed columns can be placed alongside auto columns or other fixed columns and the layout will adapt automatically to take up remaining space.
+
+### Implementation
+
+#### Responsive text
+
+Element contains a responsive text calculation in the CSS. This was discovered in a previous project. Instead of setting up lots of media queries for text using ```px``` and ```em``` units, a responsive value can be applied using the ```calc``` function.
+
+```p {
+font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+```
+
+The calculation works by taking an initial value (```14px```) and then giving a range, with the first value being the maximum value and the second value being the minimum. 300px subtracted from 100vw is the range of viewport size movement. Without these ranges limiting the difference the values become comical with the text becoming the equivalent size of 1px on small viewports and up to 150px on larger viewports.
+
+### Buttons
+
+Element contains 6 variations of button as specified by the assignment brief. Primary for primary calls to action, secondary for secondary calls to action and full width buttons to take up the entire space of its parent element. All default buttons come with a hover effect to provide user feedback. This hover effect can be turned off with the ```.no-hover``` class attribute.
+
+These buttons give the user plenty of options to designate lots of different functions.
+
+### Navigation bar
+
+The navigation bar is simply implemented. A custom container was created to span 100% screen width. 3 main columns within the container are advised to the user and can be changed order using the ```.item-1``` to ```.item-3``` flex item classes. This allows the user the manipulate the order of the elements by changing the flex order. Placing navigation links was simple, creating a link container unordered list and then nesting list items within with ```<a>``` tags for the actual links.
+
+The hover effect was achieved using ```.a:hover``` class for the anchor tags.
+
+### Hero section
+
+The hero section was an extension of the navigation bar which uses a hero container, with a header, description and call to action nested within and centrally aligned using ```text-align:center;```.
+
+### Jumbotron
+
+The jumbotron is contained by a special ```.jumbotron``` class which limits the width of the element to 70% of its parent element. The child elements are standard columns and content structure. The button is floated to the right to stick to the right side of the container.
+
+### Footer
+
+The footer is essentially a copy of the navigation bar but with specific classes ```.footer``` for the background colour and ```.footer-favicon``` for the section to hold the social media favicons and limit the size.
+
+### Modal
+
+The modal is one of the more complicated elements. The call button is a standard ```.btn-primary``` but the actual modal element is created and placed on the page but is set to ```display:none;``` by default. The call button is then given an id to be called by a jQuery script to change the display type of the modal to ```display: block;```.
+
+```
+window.onload = function(){
+
+$("#modalclose").click(function(){
+  $(".modal-container").hide();
+});
+
+$("#modalshow").click(function(){
+  $(".modal-container").show();
+});
+}
+```
+
+The modal has a 100% height and width container which has a reduced opacity to overlay the background content to take away the focus. The modal is then a standard set of rows and columns from the code contained with standard HTML5 elements. Hitting the close button hides the modal again.
+
+### Search bar
+
+The search bar is comprised of 
