@@ -193,7 +193,7 @@ As outlined in the research a heavy emphasis on navigation is present within all
 The low fidelity prototype was expanded upon and the high fidelity prototype was created. The wireframes can be found below:
 
 Index page:
-![Index page](../assets/images/abouteds.png "Index wireframe")
+![Index page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/abouteds.png "Index wireframe")
 
 Developers page:
 ![Developers page](../assets/images/developers.png "Developers wireframe")
