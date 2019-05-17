@@ -52,7 +52,7 @@ It places its main content body in the remaining screen space to the right of th
 
 Additional functionality include a search function and visible version of the design library. Again, the search function is only necessary for a large library and will likely not be necessary for this project unless the user research shows otherwise. One interesting functionality Carbon displays is a "Next section" link which takes you to the next heirarchical component or guideline within a related category. This could allow users to travel through the user journey easier than having to click on individual links to move between pages.
 
-### Google material design
+#### Google material design
 
 Google takes an identical approach to navigation as Carbon. The documentation site has a left sided navigation bar with segmented categories to allow users to expand to locate specific areas of interest. Material has a main content body on the right of the navigation. The difference between Carbon and Material is that Material places a higher emphasis on external links to articles and uses far more image diagrams containing instructions on how to implement components and design guidelines. This could be beneficial to newer users but probably will not provide as much benefit to experienced developers who will want to plug components in quickly. This will be interesting to explore during user research.
 
@@ -66,4 +66,80 @@ Both documentation websites display in-page sub links for the user to jump to th
 
 Navigation plays a big part in the scructure of the documentation page for a pattern library down to the sheer number of different pages. Allowing users the option to both browse and navigate to specific elements is imperative within the user journey. Main categories of content such as components, usage or guidelines should be immediately visible within the navigation and expand to show their child contents such as individual components.
 
-Content needs to be structured in a linear fashion with things like installation at the top and customisation at the bottom of the content heirarchy.
+Content needs to be structured in a linear fashion with things like installation at the top and customisation at the bottom of the content heirarchy. In page links are important to jump to specific sections on pages with lots of content. Image diagrams of abstract design decisions could be beneficial to newer users to help them understand in a less technical format.
+
+Both frameworks displayed an easy to understand installation page for downloading the frameworks and seperated the individual component installations on different pages. Code snippets were used throughout for easy copy and pasting for the user.
+
+### Pattern library creation frameworks
+
+[Fractal](https://fractal.build/guide/#requirements "Fractal") is a pattern library creation framework. It contains boilerplates of navigation schemes, content sections and how to lay out documentation. Whilst using a framework could be beneficial in terms of development speed, it is slightly hypocritical to be promoting a component library which was built with another framework.
+
+With every other pattern library their documentation page and components were built with their own vanilla code. Building the documentation page with the pattern library provides first hand evidence of its efficacy and a live website including its design and code.
+
+Additionally Fractal appears to be time consuming to learn, it is unlike any other framework on the market. It runs similarly to popular SPA frameworks like Vue or React in that components are created with Javascript and data is pulled in through databases. This allows for easy manipulation of content further down the line where there may be in excess of 100 pages but for the purpose of a single assessment submission with only 10 or so components this was unnecessary and would increase the development time substantially.
+
+This project will create its framework from scratch.
+
+## Design process methodology
+
+The "Design thinking" methodology was first introduced to myself during an internship at IBM. The process is heavily focused on empathizing with end users first before any designs are sketched or ideated upon. Once the goals and pain points of the end user are understood the project will progress to ideation of solutions. Once the solutions have been solidified a prototype is created and tested and the process is completed until the project is at a satisfactory quality.
+
+IMAGE OF THE PROCESS HERE
+
+## Test plan
+
+### Technical
+
+A mandatory section of software development is technical testing. Technical testing for the web is important to establish if industry standard benchmarks are met. Not reaching these benchmarks will ensure user attrition and dissatisfaction. This stage in a project cannot be overlooked.
+
+A pattern library must be fully functional when a user downloads the framework and must improve their workflow. Users having to debug code after inserting it into their own websites is a complete disaster. This is averted through functional technical testing.
+
+The testing specification for this project can be found below;
+
+1. Cross browser testing
+2. Internal page links and external page link href testing
+3. HTML & CSS validation compliance with web standards
+4. Accessibility testing for screen readers
+5. Accessibility testing for colour blind users
+6. Page load speed and performance testing
+7. Component testing to ensure downloadable components work for users
+
+### User testing
+
+User testing is important in software design to ensure the user flow is easy for the user to navigate through and find content they require with minimal pain points. In order to do this a user test specification needs to be implemented to ensure the design is functional and has no dead ends. The user testing specification is below;
+
+In addition to making sure everything works from a technical standpoint it is important to observe users using the prototype or finished product in a live environment to ensure they can navigate the documentation to access the pieces of content they desire. Having a fantastic technical framework is useless if the user cannot install it correctly or find components.
+
+1. Existing library (Carbon and Material) user testing to establish benchmarks, pros and cons
+2. Quantitative user research with open ended tasks (prototype)
+3. Observation of tasks (prototype)
+4. Qualitative user research on efficacy of website and personal opinions (prototype)
+5. Live product user feedback (Live website)
+
+## Specification
+
+Building from what was found in the research stage of this project in both Carbon and Material frameworks a specification list was created. The specification list encompasses all the required components to be designed and developed and what features the documentation site needs. 
+
+The aim of this project is to create a dynamic framework to allow both experienced and new web designers and developers to improve their worklow. In order to achieve this abstract components need to be completed to allow users to layout web pages and smaller components that can be grouped together to create larger functional elements in accordance with Brad Frost's [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/ "Atomic design") methodology.
+
+The specification list can be found below:
+
+### Components
+
+1. Grid layout 
+2. Responsive text
+3. Buttons (6 variations)
+4. Navigation bar
+5. Hero section
+6. Jumbotron
+7. Footer
+8. Modal
+9. Search bar
+
+This specification list will allow users to create web pages that allow user functionality such as submitting forms, searching the website, navigating the website and having a framework to lay out the pages.
+
+Additionally a specification list needs to be created for the documentation website to adequately allow users to understand how the components work, how to install and customise them and how to install the Element design system.
+
+### 
+
+
