@@ -5,10 +5,10 @@
 **Documentation link**
 
 Element documentation website:
-![Element](https://adamelsbury.github.io/patternlibrary/pages/index.html "Element")
+[Element](https://adamelsbury.github.io/patternlibrary/pages/index.html "Element")
 
 Github repository:
-![Github repo](https://github.com/AdamElsbury/patternlibrary "Github repo")
+[Github repo](https://github.com/AdamElsbury/patternlibrary "Github repo")
 
 
 
@@ -69,7 +69,7 @@ Google takes an identical approach to navigation as Carbon. The documentation si
 Material goes into more detail on fundamental principles for design than Carbon does and provides more evidence at an intended direction to appeal to beginners in the industry.
 
 Material image:
-![Material](https://github.com/AdamElsbury/patternlibrary/assets/images/material.png "Material")
+![Material](https://adamelsbury.github.io/patternlibrary/assets/images/material.jpg "Material")
 
 
 Both documentation websites display in-page sub links for the user to jump to the relevant section of the page. Both websites display these links first in the content column before the content. This is a good way to instruct beginners what to expect on the webpage and also allow experienced users to navigate to a specific section and not waste time browsing.
