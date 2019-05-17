@@ -191,3 +191,45 @@ Once the low fidelity layout was approved by the users it was important to creat
 As outlined in the research a heavy emphasis on navigation is present within all pattern libraries researched and is a key user requirement. As such the navigation will take up important real estate on the left side of the screen high on the content heirarchy. Navigation links will be segmented with dropdowns to allow users to select specific sections for quick access. Primary content will be displayed in the right hand section with visible working examples high in the content heirarchy with clear code snippets on how to use the components.
 
 The low fidelity prototype was expanded upon and the high fidelity prototype was created. The wireframes can be found below:
+
+Index page:
+![Index page](../assets/images/abouteds.png "Index wireframe")
+
+Developers page:
+![Developers page](../assets/images/developers.png "Developers wireframe")
+
+Designers page:
+![Designers page](../assets/images/designers.png "Designers wireframe")
+
+Usage policy page:
+![Usage policy page](../assets/images/usagepolicy.png "Usage policy wireframe")
+
+Flex grid page:
+![Flex grid page](../assets/images/flexgrid.png "Flex grid wireframe")
+
+Responsive text page:
+![Responsive text page](../assets/images/responsivetext.png "Responsive text wireframe")
+
+Buttons page:
+![Buttons page](../assets/images/buttons.png "Buttons wireframe")
+
+Navigation bar page:
+![Navigation bar page](../assets/images/navigationbar.png "Navigation bar wireframe")
+
+Designers page:
+![Designers page](../assets/images/designers.png "Designers wireframe")
+
+Hero page:
+![Hero page](../assets/images/hero.png "Hero wireframe")
+
+Jumbotron page:
+![Jumbotron page](../assets/images/jumbotron.png "Jumbotron wireframe")
+
+Footer page:
+![Footer page](../assets/images/footer.png "Footer wireframe")
+
+Modal page:
+![Modal page](../assets/images/modal.png "Modal wireframe")
+
+Search bar page:
+![Search bar page](../assets/images/searchbar.png "Designers wireframe")
