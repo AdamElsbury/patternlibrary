@@ -241,5 +241,27 @@ navigation ul>li>span {
     flex: 1;
     padding: 0;
     width: 100%;
+    display: none;
+  }
+  .svg-fit-mobile-icon {
+    max-width: 100%;
+    max-height: 1em;
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  .hamburger-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 1em;
+    display: block;
+    outline: none;
+  }
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
   }
 }

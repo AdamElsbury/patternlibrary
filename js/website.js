@@ -15,3 +15,12 @@ $(document).ready(function()
         $(this).toggleClass("active");
     });
 });
+
+$(document).ready(function()
+{
+    $(".mobile-nav-open").click(function()
+    {
+        $(".grid-col-nav").toggle();
+        $(this).toggleClass("active");
+    });
+});
