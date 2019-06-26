@@ -330,7 +330,7 @@ row flex direction to column to stack the columns
 vertically on devices smaller than 501px.
 */
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 860px ) {
 .grid-row {
   flex-direction: column;
   }
@@ -836,11 +836,23 @@ input[type=text]
   .margin-vertical-large {
     margin: 5% 0% 5% 0%;
   }
-  
+
   .margin-top-large {
     margin-top: 5%;
   }
 
+  .margin-bottom-large {
+    margin-bottom: 5%;
+  }
+
+  .margin-right-large {
+    margin-right: 5%;
+  }
+
+  .margin-left-large {
+    margin-left: 5%;
+  }
+  
   .padding-large {
     padding: 5%;
   }
@@ -852,5 +864,4 @@ input[type=text]
   .padding-horizontal-large {
     padding: 0% 5% 0% 5%;
   }
-
 }
