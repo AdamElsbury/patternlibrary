@@ -209,43 +209,43 @@ As outlined in the research a heavy emphasis on navigation is present within all
 The low fidelity prototype was expanded upon and the high fidelity prototype was created. The wireframes can be found below. Components are included in the related page:
 
 Index page:
-![Index page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/abouteds.png "Index wireframe")
+![Index page](https://adamelsbury.github.io/patternlibrary/assets/images/abouteds.png "Index wireframe")
 
 Developers page:
-![Developers page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/developers.png "Developers wireframe")
+![Developers page](https://adamelsbury.github.io/patternlibrary/assets/images/developers.png "Developers wireframe")
 
 Designers page:
-![Designers page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/designers.png "Designers wireframe")
+![Designers page](https://adamelsbury.github.io/patternlibrary/assets/images/designers.png "Designers wireframe")
 
 Usage policy page:
-![Usage policy page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/usagepolicy.png "Usage policy wireframe")
+![Usage policy page](https://adamelsbury.github.io/patternlibrary/assets/images/usagepolicy.png "Usage policy wireframe")
 
 Flex grid page:
-![Flex grid page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/flexgrid.png "Flex grid wireframe")
+![Flex grid page](https://adamelsbury.github.io/patternlibrary/assets/images/flexgrid.png "Flex grid wireframe")
 
 Responsive text page:
-![Responsive text page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/responsivetext.png "Responsive text wireframe")
+![Responsive text page](https://adamelsbury.github.io/patternlibrary/assets/images/responsivetext.png "Responsive text wireframe")
 
 Buttons page:
-![Buttons page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/buttons.png "Buttons wireframe")
+![Buttons page](https://adamelsbury.github.io/patternlibrary/assets/images/buttons.png "Buttons wireframe")
 
 Navigation bar page:
-![Navigation bar page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/navigationbar.png "Navigation bar wireframe")
+![Navigation bar page](https://adamelsbury.github.io/patternlibrary/assets/images/navigationbar.png "Navigation bar wireframe")
 
 Hero page:
-![Hero page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/hero.png "Hero wireframe")
+![Hero page](https://adamelsbury.github.io/patternlibrary/assets/images/hero.png "Hero wireframe")
 
 Jumbotron page:
-![Jumbotron page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/jumbotron.png "Jumbotron wireframe")
+![Jumbotron page](https://adamelsbury.github.io/patternlibrary/assets/images/jumbotron.png "Jumbotron wireframe")
 
 Footer page:
-![Footer page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/footer.png "Footer wireframe")
+![Footer page](https://adamelsbury.github.io/patternlibrary/assets/images/footer.png "Footer wireframe")
 
 Modal page:
-![Modal page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/modal.png "Modal wireframe")
+![Modal page](https://adamelsbury.github.io/patternlibrary/assets/images/modal.png "Modal wireframe")
 
 Search bar page:
-![Search bar page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/searchbar.png "Designers wireframe")
+![Search bar page](https://adamelsbury.github.io/patternlibrary/assets/images/searchbar.png "Designers wireframe")
 
 ### Experimentation
 
@@ -256,7 +256,7 @@ Search bar page:
 Due to previous experience with a freelance commission, there are some issues with float based layouts. The layouts require many media queries to make the layout work as the float rules break when the browser is resized. This makes grid > column layouts requiring much more code than other options in addition to the numerous media queries. Keeping libraries small is very important to users as no one will use a bloated library as it will affect load speed times. Additionally you have to create long winded workarounds for things like vertical and horizontal centring of column content by using ```float:none;``` rules, which affects the layout.
 
 Float layout issue from commission website:
-![Float issue page](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/floatissue1.png "Float issue screenshot")
+![Float issue page](https://adamelsbury.github.io/patternlibrary/assets/images/floatissue1.png "Float issue screenshot")
 
 Due to the media query, code size, content centring and responsive issues experienced with float layouts they will not be used.
 
@@ -273,7 +273,7 @@ Due to its ease of use, ability to position column content and low amount of cod
 In order to test the viability of the flexbox layout a codepen was created to establish how easy it was to create.
 
 Codepen for flexbox grid experimentation:
-![Codepen for flexbox grid](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/flexboxcp.png "Flexbox grid")
+![Codepen for flexbox grid](https://adamelsbury.github.io/patternlibrary/assets/images/flexboxcp.png "Flexbox grid")
 
 The flexbox layout was incredibly easy to achieve with less that 45 lines of code needed. The above was achieved on the first try following a flexbox guide from CSS Tricks website. The only addition to enter the final code is to include a single media query for viewports of less than ```500px``` to stack the column content vertically instead of horizontally.
 
@@ -354,6 +354,6 @@ With the documentation website and all the components set up, the same three par
 After they navigated through the documentation website all three were asked a series of questions to establish the subjective opinions. The questions and answers are as follows:
 
 User feedback:
-![User feedback](https://github.com/AdamElsbury/patternlibrary/blob/master/assets/images/table.png "User feedback")
+![User feedback](https://adamelsbury.github.io/patternlibrary/assets/images/table.png "User feedback")
 
 In addition to the documentation on the website the CSS rules have been heavily commented to allow users to easily understand which parts of the code to change.
